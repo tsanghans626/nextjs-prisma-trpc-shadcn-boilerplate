@@ -1,20 +1,13 @@
-# Next.js + tRPC
+# Next.js + Prisma + tRPC + shadcn/ui
 
-This example shows how you can make a typed query using a minimal implementation of tRPC following [`this as a reference`](https://trpc.io/docs/client/nextjs).
+## Get Started Now
 
-## Setup
-
+### Quick Setup (2 minutes)
+#### 1. Install this repository into your project:
+#### Unix/Linux/macOS
 ```bash
-npx create-next-app --example https://github.com/trpc/trpc --example-path examples/next-minimal-starter trpc-minimal-starter
-cd trpc-minimal-starter
-npm i
-npm run dev
-```
+cd path/to/your/project/
+curl -sSL https://raw.githubusercontent.com/tsanghans626/nextjs-prisma-trpc-shadcn-boilerplate/main/scripts/install.sh | bash
+# or: wget -qO- https://raw.githubusercontent.com/tsanghans626/nextjs-prisma-trpc-shadcn-boilerplate/main/scripts/install.sh | bash
 
-## Development
-
-### Start project
-
-```bash
-npm run dev        # starts next.js
 ```
